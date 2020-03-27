@@ -1,4 +1,4 @@
-import { override, addLessLoader, addBabelPlugin } from 'customize-cra';
+const { override, addLessLoader, addBabelPlugin } = require('customize-cra');
 
 module.exports = override(
     addLessLoader({ javascriptEnabled: true }),
